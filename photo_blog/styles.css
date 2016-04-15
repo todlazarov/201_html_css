@@ -1,49 +1,71 @@
-@import url(reset.css);
+@import url("reset.css");
 body {
-    font: normal 18px "Roboto Condensed", sans-serif;
     color: #3e606f;
-    background: linear-gradient(to bottom, #d1dbbd, #fcfff5);
+    background: #d1dbbd;
+    background: -webkit-linear-gradient(#d1dbbd, #fcfff5);
+    background: -o-linear-gradient(#d1dbbd, #fcfff5);
+    background: -moz-linear-gradient(#d1dbbd, #fcfff5);
+    background: linear-gradient(#d1dbbd, #fcfff5);
+    font: normal 18px/23px 'Roboto Condensed', sans-serif;
 }
+
+
+/*
+==========================
+	Header
+==========================
+*/
 
 header {
     width: 920px;
     margin: 0 auto;
-    padding: 20px 20px 0 20px;
-}
-
-header:after {
-    content: "";
-    clear: both;
-    display: block;
+    padding: 20px 20px 13px 20px;
 }
 
 h1 {
     background: transparent url("images/logo.png") 0 0 no-repeat;
-    font-size: 36px;
-    color: #193441;
     float: left;
-    padding: 45px 0 20px 115px;
+    font-size: 36px;
     font-weight: normal;
-}
-
-h2 {
-    font-size: 32px;
-    margin-top: 30px;
-    font-weight: normal;
+    color: #193441;
+    padding: 55px 0 25px 115px;
 }
 
 nav {
     float: right;
-    padding: 75px 0 0 0;
-}
-
-nav ul {
-    display: table-cell;
+    padding: 85px 0 0 0;
 }
 
 nav li {
     display: inline-block;
 }
+
+a {
+    text-decoration: none;
+    background: #fcfff5;
+    color: #91aa9d;
+    padding: 10px 40px 14px 40px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.active {
+    background: #91aa9d;
+    color: #fcfff5;
+}
+
+header:after {
+    clear: both;
+    content: "";
+    display: block;
+}
+
+
+/*
+==========================
+	Main
+==========================
+*/
 
 main {
     background: #ffffff;
@@ -54,38 +76,31 @@ main {
     box-shadow: 0 5px 5px #b5b5b5;
 }
 
-nav a {
-    background: #fcfff5;
-    display: block;
-    color: #91aa9d;
-    text-decoration: none;
-    padding: 10px 40px 14px 40px;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-}
-
-nav a.active {
-    color: #fcfff5;
-    background: #91aa9d;
-}
-
-main p {
-    margin-top: 20px;
+h2 {
+    font-size: 32px;
+    font-weight: normal;
+    margin: 45px 0 30px 0;
 }
 
 figure {
 	float: right;
-	margin: 20px 0 0 35px;
+	margin: 0 0 0px 35px;
 }
 
-main:after {
-	content: "";
-	display: block;
-	clear: both;
+main p {
+	margin: 0 0 25px 0;
 }
+
+
+/*
+==========================
+	Footer
+==========================
+*/
 
 footer {
-	width: 960px;
-	margin: 15px auto 40px auto;
-	font-size: 14px;
+    width: 960px;
+    margin: 0 auto;
+    font-size: 14px;
+    padding: 17px 0 40px 0;
 }
