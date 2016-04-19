@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Contact Form</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+<body>
+    <form action="" method="get">
+        <fieldset>
+            <dl>
+                <dt>
+                    <label for="first_name">First Name</label>
+                </dt>
+                <dd>
+                    <input type="text" name="first_name" id="first_name" />
+                </dd>
+                <dt>
+                    <label for="last_name">Last Name</label>
+                </dt>
+                <dd>
+                    <input type="text" name="last_name" id="last_name" />
+                </dd>
+                <dt>
+                    <label for="email">E-mail</label>
+                </dt>
+                <dd>
+                    <input type="email" name="email" id="email" placeholder="your_email@gmail.com" inputmode="email" />
+                </dd>
+                <dt>
+                    <label for="city">City</label>
+                </dt>
+                <dd>
+                    <input type="text" name="city" id="city" />
+                </dd>
+                <dt>
+                    <label for="state">State</label>
+                </dt>
+                <dd>
+                    <select name="state">
+                        <option>AK</option>
+                        <option>AL</option>
+                        <option>AR</option>
+                        <option>AZ</option>
+                        <option>CA</option>
+                        <option>CO</option>
+                        <option>CT</option>
+                        <option>DC</option>
+                        <option>DE</option>
+                        <option>FL</option>
+                        <option>GA</option>
+                        <option>HI</option>
+                        <option>IA</option>
+                        <option>ID</option>
+                        <option>IL</option>
+                        <option>IN</option>
+                        <option>KS</option>
+                        <option>KY</option>
+                        <option>LA</option>
+                        <option>MA</option>
+                        <option>MD</option>
+                        <option>ME</option>
+                        <option>MI</option>
+                        <option>MN</option>
+                        <option>MO</option>
+                        <option>MS</option>
+                        <option>MT</option>
+                        <option>NC</option>
+                        <option>ND</option>
+                        <option>NE</option>
+                        <option>NH</option>
+                        <option>NJ</option>
+                        <option>NM</option>
+                        <option>NV</option>
+                        <option>NY</option>
+                        <option>OH</option>
+                        <option>OK</option>
+                        <option>OR</option>
+                        <option>PA</option>
+                        <option>RI</option>
+                        <option>SC</option>
+                        <option>SD</option>
+                        <option>TN</option>
+                        <option>TX</option>
+                        <option>UT</option>
+                        <option>VA</option>
+                        <option>VT</option>
+                        <option>WA</option>
+                        <option>WI</option>
+                        <option>WV</option>
+                        <option>WY</option>
+                    </select>
+                </dd>
+                <dt>
+                    <label for="zipcode">Zipcode</label>
+                </dt>
+                <dd>
+                    <input type="text" name="zipcode" id="zipcode" maxlength="5" inputmode="numeric" />
+                </dd>
+                <dt>
+                    <label for="color">Which of these colors do you prefer the most?</label>
+                </dt>
+                <dd>
+                    <ul>
+                        <li>
+                            <label>
+                                <input type="radio" value="yellow" /> Yellow
+                            </label>
+                        </li>
+                        <li>
+                            <label>
+                                <input type="radio" value="red" /> Red
+                            </label>
+                        </li>
+                        <li>
+                            <label>
+                                <input type="radio" value="blue" /> Blue
+                            </label>
+                        </li>
+                        <li>
+                            <label>
+                                <input type="radio" value="green" /> Green
+                            </label>
+                        </li>
+                    </ul>
+                </dd>
+                <dt>
+                    <label for="web_tech">What web technologies do you want to hear more about?</label>
+                </dt>
+                <dd>
+                    <ul>
+                        <li>
+                            <input type="checkbox" value="html" /> HTML
+                        </li>
+                        <li>
+                            <input type="checkbox" value="css" /> CSS
+                        </li>
+                        <li>
+                            <input type="checkbox" value="javascript" /> JavaScript
+                        </li>
+                        <li>
+                            <input type="checkbox" value="ruby" /> Ruby
+                        </li>
+                    </ul>
+                </dd>
+                <dt>
+                    <label for="comments">Comments</label>
+                </dt>
+                <dd>
+                    <textarea name="comments" id="comments" rows="6" cols="80"></textarea>
+                </dd>
+            </dl>
+            <input type="hidden" value="2016-01-01" name="timestamp" />
+            <input type="submit" value="Submit" />
+            <input type="reset" value="Reset" />
+        </fieldset>
+    </form>
+</body>
+
+</html>
