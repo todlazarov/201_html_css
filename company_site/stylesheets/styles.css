@@ -1,0 +1,156 @@
+@import url("reset.css");
+body {
+    padding: 75px 0 0 0;
+    background: url("../images/bg_body.gif") 50% 0 repeat;
+    font: normal 20px "Avenir", Helvetica, Arial, sans-serif;
+    text-align: center;
+    color: #45494d;
+}
+
+h1 {
+    padding: 0 0 75px 0;
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: 600;
+    padding: 0 0 40px 0;
+}
+
+h3 {
+    padding: 0 0 20px 0;
+    font-size: 24px;
+    color: #3e59b2;
+}
+
+nav {
+    padding: 25px 0 60px 0;
+}
+
+nav li {
+    display: inline;
+    padding: 0 42px;
+}
+
+nav a {
+    font-size: 24px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #cecece;
+}
+
+main {
+    background: #ffffff;
+    padding: 100px 0 0 0;
+}
+
+article {
+    padding: 0 110px 100px 110px;
+}
+
+article p {
+    text-align: justify;
+}
+
+#projects figure img {
+    display: block;
+    width: 100%;
+}
+
+#projects article {
+    padding: 0 0 50px 0;
+}
+
+#projects article + article {
+    padding-top: 60px;
+    border-top: 1px solid #cccccc;
+}
+
+#projects figure {
+    padding: 0 30px 20px 30px;
+    margin: 0;
+}
+
+#projects p {
+    padding: 0 110px;
+    margin: 0;
+}
+
+#team p {
+    padding: 0 110px;
+    margin: 0;
+    text-align: justify;
+}
+
+footer {
+    padding: 75px 0;
+    color: #b2b2b2;
+    background: #e7e7e7;
+}
+
+footer p {
+    padding: 0 0 40px 0;
+}
+
+footer li {
+    display: inline-block;
+    padding: 0 62px;
+}
+
+footer li a {
+    display: block;
+    width: 46px;
+    height: 46px;
+    background: url("../images/icons_social-media.png") 0 0 no-repeat;
+}
+
+.column {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.active {
+    color: #6db9ff;
+    font-weight: bold;
+}
+
+.team-members {
+    padding: 100px 0;
+}
+
+.team-members img {
+    padding: 0 30px;
+}
+
+.members h3 {
+    font-weight: 400;
+}
+
+.members {
+    display: inline-block;
+}
+
+.members img {
+    margin-bottom: 15px;
+}
+
+footer li a.footer-facebook {
+    background-position: 0 -46px;
+}
+
+footer li a.footer-email {
+    background-position: 0 -92px;
+}
+
+footer li a.footer-insta {
+    background-position: 0 100%;
+}
+
+h2:before,
+h2:after {
+    display: inline-block;
+    padding: 0 24px;
+    font-size: 22px;
+    vertical-align: 5px;
+    content: "\2022";
+}
